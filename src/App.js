@@ -1,8 +1,14 @@
-import logo from './logo.svg'
 import './App.css'
+import Header from './components/Header'
+import ProductContainer from './components/ProductContainer'
 
 function App() {
-  return <div className="App">Let's do it!</div>
+  return (
+    <div className="App">
+      <Header />
+      <ProductContainer />
+    </div>
+  )
 }
 
 export default App
